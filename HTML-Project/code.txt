@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      youtube.com
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg">
+          <div class="notifications-count">
+            3
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img class="current-user-picture" src="icons/Snapchat-2037074263.jpg">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>library</div>
+      </div>
+    </div>
+    <div class="video-grid">
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=JZa7U91EflE&pp=ygUNa2FkaGFsIGthcHBhbA%3D%3D" target="_blank">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/kadhal-kappal.webp">
+          <div class="video-time">
+            2:48
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/sony-music-southVEVO.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Nila - Mutta Kappal Video | B. Vetri | Vetri
+            </p>
+              <p class="video-author">
+              SonyMusicSouthVEVO 
+            </p>
+            <p class="video-stats">
+              21M views &#183; years ago
+            </p>
+          </div>
+        </div>
+      </a>
+      
+      
+      <a class="video-preview" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&pp=ygUxdGFsa2luZyB0ZWNoIGFuZCBhaSB3aXRoIGdvb2dsZSBjZW8gc3VuZGFyIHBpY2hhaQ%3D%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">
+            14:20
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div> 
+        </div>
+      </a>
+      
+      
+      <a class="video-preview" href="https://www.youtube.com/watch?v=szvt1vD0Uug&pp=ygUPbmFhIHJlYWR5IHNvbmdh">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/leo-song.webp">
+          <div class="video-time">
+            4:15
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/sony-music.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              LEO - Naa Ready Lyric Video | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander   
+            </p>   
+            <p class="video-author">
+              Sony Music South 
+            </p>
+            <p class="video-stats">
+              160M views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </a>
+
+  
+      <a class="video-preview" href="https://www.youtube.com/watch?v=mVubYBRajfw&pp=ygULbWVnYW1vIGF2YWw%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/megamo-aval.webp">
+          <div class="video-time">
+            4:40
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/think-music.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Meyaadha Maan | Idhayam Love - Megamo Aval Video Song | Vaibhav, Priya | Santhosh Narayanan
+            </p>
+            <p class="video-author">
+              Think Music India
+            </p>
+            <p class="video-stats">
+              11M views &#183; 5 years ago
+            </p>
+          </div> 
+        </div>
+      </a>
+      
+  
+      <a class="video-preview" href="https://www.youtube.com/watch?v=0AqW1YpIR2o&pp=ygUeYWFuYW5kaGEgeWFhemhhaSB2aWRlbyBzb25nIGhk">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/aanandha yaazhai.webp">
+          <div class="video-time">
+            3:07
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/sony-music-southVEVO.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Thangameenkal - Aanandha Yaazhai Video | Ram | Yuvanshankar Raja            </p>
+            <p class="video-author">
+              SonyMusicSouthVEVO
+            </p>
+            <p class="video-stats">
+              19M views &#183; 8 years ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+      
+      <a class="video-preview" href="https://www.youtube.com/watch?v=Dz_L_Ndk0a4&t=96s&pp=ygVOSW50cm9kdWN0aW9uIHRvIFJlbW90ZSBTZW5zaW5nIG9mIEVhcnRoIGFuZCBwbGFuZXRhcnkgYm9kaWVzIGJ5IERyLiBSLlAuIFNpbmdo">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/iirs.webp">
+          <div class="video-time">
+            54:44
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/isro.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Introduction to Remote Sensing of Earth and planetary bodies by Dr. R.P. Singh
+            </p>
+            <p class="video-author">
+              EDUSAT IIRS Dehradun 
+            </p>
+            <p class="video-stats">
+              1.8K views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </a> 
+
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=issvtUH8rHI&t=22s&pp=ygVJSW50ZWwgVnMgQU1EIPCfkYogfCDgrofgrqTgr4HgrrIg4K6O4K6k4K-BIEJlc3QtVWg_8J-klCB8IFRlY2ggVXJ1dHR18J-YiA%3D%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/intel vs amd.webp">
+          <div class="video-time">
+            14:02
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/a2d.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Intel Vs AMD 👊 | இதுல எது Best-Uh?🤔 | Tech Uruttu😈
+            </p>
+            <p class="video-author">
+              A2D Channel
+            </p>
+            <p class="video-stats">
+              450K views &#183; 1 year ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+     
+      <a class="video-preview" href="https://www.youtube.com/watch?v=Fvy43W36Nx0&pp=ygV5ICAgICAgICAgICAgICBXQVRFUk1FTE9OIEpVSUNFIHwgRmFybSBGcmVzaCBGcnVpdCBKdWljZSBNYWtpbmcgfCBXYXRlcm1lbG9uIENyYWZ0IHwgV2F0ZXJtZWxvbiBFeHBlcmltZW50ICAgICAgICAgICAgPC9wPg%3D%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/watermelon juice.webp">
+          <div class="video-time">
+            3:56
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/village cooking channel.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              WATERMELON JUICE | Farm Fresh Fruit Juice Making | Watermelon Craft | Watermelon Experiment            </p>
+            <p class="video-author">
+              Village Cooking Channel
+            </p>
+            <p class="video-stats">
+              224M views &#183; 1 year ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=My_S68DAAPg&pp=ygVGICAgICAgICAgICAgICBNYW5pdGhhbiAtIEF2YWwgVmlkZW8gfCBVZGhheWFuaWRoaSB8IFNhbnRob3NoIE5hcmF5YW5hbg%3D%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/manithan.webp">
+          <div class="video-time">
+            3:56
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/sony-music-southVEVO.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Manithan - Aval Video | Udhayanidhi | Santhosh Narayanan
+            </p>
+            <p class="video-author">
+              SonyMusicSouthVEVO
+            </p>
+            <p class="video-stats">
+              53M views &#183; 7 years ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=6aK407STsGA&pp=ygU7ICAgICAgICAgICAgICBUaGlzIFBob25lIGlzIE5lYXJseSBQZXJmZWN0ISAgICAgICAgICAgIDwvcD4%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/asus 10.webp">
+          <div class="video-time">
+            7:41
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              This Phone is Nearly Perfect!            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              4M views &#183; 3 months ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=TyskcLbCkqE&t=12s&pp=ygVQICAgICAgICAgICAgICBTUElERVItTUFOIEhPTUVDT01JTkcgQmVzdCBBY3Rpb24gU2NlbmVzIDRLIOG0tOG0sCAgICAgICAgICAgIDwvcD4%3D">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/spiderman.webp">
+          <div class="video-time">
+            10:03
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/one meida.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              SPIDER-MAN HOMECOMING Best Action Scenes 4K ᴴᴰ            </p>
+            <p class="video-author">
+              ONE Media
+            </p>
+            <p class="video-stats">
+              64M views &#183; 1 year ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+
+      <a class="video-preview" href="https://www.youtube.com/watch?v=kJQP7kiw5Fk&pp=ygVFICAgICAgICAgICAgICBMdWlzIEZvbnNpIC0gRGVzcGFjaXRvIGZ0LiBEYWRkeSBZYW5rZWUgICAgICAgICAgICA8L3A-">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/desp.webp">
+          <div class="video-time">
+            4:42
+          </div>
+        </div>
+        <div class="video-info-grid"> 
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-picture/luis fonsi.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Luis Fonsi - Despacito ft. Daddy Yankee            </p>
+            <p class="video-author">
+              Luis Fonsi 
+            </p>
+            <p class="video-stats">
+              8.2B views &#183; 6 years ago
+            </p>
+          </div> 
+        </div>
+      </a>
+
+      
+    </div>    
+  </body>
+</html>
+
+
+
+
+.video-preview{
+  cursor:pointer;
+  text-decoration: none;
+
+}
+.video-preview:visited {
+  color:black
+}
+.thumbnail-row{
+  margin-bottom:8px;
+  position:relative;
+}
+.thumbnail{
+  width:100%;
+  border-radius: 10px;
+}
+.video-title{
+  margin-top: 0;
+  font-size:14px;
+  font-weight:500; 
+  line-height:20px;
+  margin-bottom:10px;
+  color:black;
+}
+.video-info-grid{
+  display:grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile-picture{
+  width:36px;
+  border-radius:50px;
+}
+
+.video-author,
+.video-stats{
+  font-size:12px;
+  color:rgb(96, 96, 96)
+}
+.video-author{
+  margin-bottom:4px;
+}
+.video-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  
+}
+
+@media (max-width: 750px){
+  .video-grid{
+    grid-template-columns:1fr 1fr ;
+  }
+}
+@media(min-width:751px) and (max-width:999px){
+  .video-grid{
+    grid-template-columns:1fr 1fr 1fr ;
+  }
+}
+
+@media (min-width:1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.video-time{
+  background-color: black;
+  color:white;
+  position:absolute;
+  bottom:8px;
+  right:5px;
+  font-size:12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+
+
+.sidebar{
+  position:fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  background-color: white;
+  width:72px;
+  z-index: 2;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.sidebar-link{
+  height:74px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-link:hover{
+  background-color: rgb(235,235,235);
+}
+.sidebar-link img{
+  height:24px;
+  margin-bottom: 4px;
+}
+.sidebar-link div{
+  font-size: 10px;
+}
+
+
+.header{
+  height:55px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  background-color: white;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(240, 240, 240);
+  z-index: 1;
+
+}
+.left-section{
+  display:flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+
+}
+.youtube-logo{
+  height:20px;
+}
+.middle-section{
+  flex:1;
+  margin-right: 35px;
+  margin-left: 70px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-bar{
+  flex:1;
+  height:36.5px;
+  padding-left: 10px;
+  font-size:16px;
+  border:1px solid rgb(192,192,192);
+  border-radius:40px 0 0 40px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+}
+.search-button{
+  height:40px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid; 
+  border-color:rgb(192,192,192);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 0 40px 40px 0;
+}
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notification-icon-container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+}
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notification-icon-container .tooltip{
+  position:absolute;
+  background-color: gray;
+  color:white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom:-30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip,
+.notification-icon-container:hover .tooltip{
+  opacity:1;
+}
+.search-icon{
+  height: 25px;
+}
+.voice-search-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border:none;
+  background-color: rgb(245,245,245);
+}
+.voice-search-icon{
+  height: 24px;
+}
+
+.right-section{
+  width:180px;
+  margin-right: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.upload-icon{
+  height: 24px;
+}
+.youtube-apps-icon{
+  height: 24px;
+}
+
+.notification-icon{
+  height:24px;
+}
+.notifications-count{
+  position:absolute;
+  top: -2px;
+  right:-5px;
+  background-color: rgb(200,0,0);
+  color:white;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius:10px;
+  
+}
+.current-user-picture{
+  height:32px;
+  width:25px;
+  border-radius: 50px;
+}
+
+
+p{
+  margin-top: 0;
+  margin-bottom:0;
+}
+body{
+  font-family: Roboto, Arial;
+  margin:0;
+  padding-top: 80px;
+  padding-left:96px;
+  padding-right:24px;
+  background-color:rgb(248,248,248);
+}
